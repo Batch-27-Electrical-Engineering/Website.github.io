@@ -2231,7 +2231,7 @@ h2.our-title{
 
 
 .new{
-    background-color: #fffaee;
+    background-color: #ececec;
     padding-top: calc(var(--main-padding-top) - 50px);
     padding-bottom: calc(var(--main-padding-bottom) - 50px);
 }
