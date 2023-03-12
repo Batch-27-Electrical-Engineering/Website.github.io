@@ -320,6 +320,29 @@ ul.our-nav li ul a{
     list-style: none;
     line-height: 70px;
   }
+  .content .links li a{
+    position: relative;
+    transition: var(--main-transition);
+  }
+  .content .links li a::after,
+  .content .links li a::before{
+    position: absolute;
+    content: "";
+    background-color: var(--main-color);
+    height: 3px;
+    width: 0;
+    transition: var(--main-transition);
+  }
+  .content .links li a:hover::after{
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .content .links li a:hover::before{
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
   .content .links li a,
   .content .links li label{
     color: var(--main-color-alt);
