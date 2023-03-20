@@ -190,6 +190,11 @@ ul.our-nav li ul a{
 .header ul.our-nav > li > a:hover::before{
     width: 100%;
 }
+@media (min-width: 992px){
+    .content .logo img{
+        width: 150px;
+    }
+}
 @media (max-width: 767px){
     .header .logo{
         width: 100%;
@@ -314,7 +319,7 @@ ul.our-nav li ul a{
     display: flex;
   }
   .content .logo img{
-    width: 70px;
+    width: 110px;
   }
   .content .links li{
     list-style: none;
