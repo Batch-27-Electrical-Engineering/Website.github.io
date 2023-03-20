@@ -297,6 +297,7 @@ ul.our-nav li ul a{
     position: sticky;
     top: 2px;
     width: 100%;
+    min-height: 80px;
     z-index: 55555555;
   }
   .wrapper nav{
@@ -319,7 +320,7 @@ ul.our-nav li ul a{
     display: flex;
   }
   .content .logo img{
-    width: 110px;
+    width: 130px;
   }
   .content .links li{
     list-style: none;
