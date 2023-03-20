@@ -573,7 +573,15 @@ ul.our-nav li ul a{
     font-size: 45px;
     margin: 5px 0;
   }
-@media(max-width: 991px){
+.menu{
+    color: var(--main-color-alt);
+}
+@media(min-width: 901px){
+    .menu{
+        display: none;
+    }
+}
+  @media(max-width: 991px){
     .wrapper nav .content{
         justify-content: flex-end;
     }
