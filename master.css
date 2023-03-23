@@ -2285,11 +2285,26 @@ h2.our-title{
     text-align: right;
     background-color: white;
 }
+.new .box .info{
+    background-color: #ececec73;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.new .box .info h3{
+    margin: 3px;
+    color: var(--main-color-alt);
+} 
+.new .box .info h4{
+    margin: 3px;
+    color: var(--main-color);
+} 
 .new .box img{
     max-width: 100%;
 }
 .new .box h4{
-    padding: 0 20px;
+    margin: 0;
+    padding: 10px 0;
 }
 .new .box p{
     padding: 0 20px;
@@ -2303,8 +2318,7 @@ h2.our-title{
     width: fit-content;
     margin: 20px;
 }
-.new{
-}
+
 
 
 
