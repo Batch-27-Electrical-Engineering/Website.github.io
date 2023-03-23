@@ -2290,6 +2290,7 @@ h2.our-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5px;
 } 
 .new .box .info h3{
     margin: 3px;
@@ -2305,6 +2306,9 @@ h2.our-title{
 .new .box h4{
     margin: 0;
     padding: 10px 0;
+    display: block;
+    padding: 9px;
+    line-height: 1.3;
 }
 .new .box p{
     padding: 0 20px;
