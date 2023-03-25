@@ -2312,10 +2312,12 @@ h2.our-title{
     gap: 10px;
 }
 .new .box{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
     border-radius: 6px;
     text-align: right;
     background-color: white;
+    justify-content: space-between;
 }
 .new .box .info{
     background-color: #ececec73;
