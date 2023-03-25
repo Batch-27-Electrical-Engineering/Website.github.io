@@ -16,6 +16,39 @@ span.onclick = function () {
     behavior: "smooth",
   });
 };
+
+
+
+// const countEl = document.getElementById('count');
+// updateVisitCount();
+// function updateVisitCount(){
+//   //we use the fetch API here to get the countAPI
+//   fetch('https://api.countapi.xyz/update/hana/bag/?amount=1')
+//           .then(res => res.json())
+//           .then(res => {
+//     countEl.innerHTML = res.value;
+//   });
+// }
+
+
+
+
+const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+  fetch('https://api.countapi.xyz/update/batch.com/BatchElect/?amount=1')
+  .then(res => res.json())
+  .then(res => {
+    countEl.innerHTML = res.value;
+  });
+}
+
+
+
+
+
 // const navtoggle = document.getElementById('icon');
 // const nav = document.getElementById('our-nav');
 // navtoggle.addEventListener('click', function(e) {

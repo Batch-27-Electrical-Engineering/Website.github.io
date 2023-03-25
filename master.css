@@ -2516,9 +2516,27 @@ h2.our-title{
 
 
 
-
-
-
+.views-hol{
+    background-color: #ececec;
+}
+.views{
+    width: 400px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid var(--main-color-alt);
+}
+@media (max-width: 991px){
+    .views{
+        width: auto;
+    }
+}
+.views h5{
+    color: var(--main-color);
+    font-size: 30px;
+}
 
 
 
