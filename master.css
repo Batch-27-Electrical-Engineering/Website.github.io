@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 :root {
-  --main-color: #fdba21;
-  --main-color-alt: #00235e;
+  --main-color: #fbbf1e;
+  /* --main-color: #fdba21; */
+  --main-color-alt: #3e4a81;
+  /* --main-color-alt: #00235e; */
   --main-transition: 0.3s;
   --main-padding-top: 100px;
   --main-padding-bottom: 100px;
