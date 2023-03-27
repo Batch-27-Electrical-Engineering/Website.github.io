@@ -2334,6 +2334,15 @@ h2.our-title{
     margin: 3px;
     color: var(--main-color);
 } 
+.new .box a.view{
+    color: var(--main-color);
+    background-color: var(--main-color-alt);
+    padding: 7px;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: 12px;
+    margin: 10px 5px 0 auto;
+}
 .new .box img{
     max-width: 100%;
 }
